@@ -1,4 +1,12 @@
 #!/usr/bin/python3
 def add(a, b):
-    res = (a + b)
-    print("{} + {} = {}".format(a, b, res))
+    """My addition function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a + b
+    """
+    return (a + b)
