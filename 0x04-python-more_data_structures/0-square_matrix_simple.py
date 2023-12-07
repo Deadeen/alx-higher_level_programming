@@ -2,12 +2,8 @@
 
 
 def square_matrix_simple(matrix=[]):
-    """
-    wordA function that computes the square
-    value of all integers of a matrix.
-    """
     new_matrix = []
-    for col in matrix:
-        result = list(map(lambda x: x**2, col))
+    for colo in matrix:
+        result = list(map(lambda x: x**2, colo))
         new_matrix.append(result)
     return new_matrix
